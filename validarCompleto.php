@@ -4,12 +4,11 @@ $errores = [];
 
 function mostrarError($errores, $campo){
   $alerta = "";
-  if(count($errores)>0 && isset($errores[$campo])){
-    $alerta = 
-    '<div class="alert alert-danger" style=" margin-top:5px;">'.
-    $errores[$campo].
-    '</div>';
+  if (isset($errores[$campo]) && !empty($campo)) {
+    $alert = '<div class="alert alert-danger" style=" margin-top:5px;">'
+      . $errores[$campo] . '</div>';
   }
+  return $alerta;
 
   return $alerta;
 }
