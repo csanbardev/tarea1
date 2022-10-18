@@ -1,6 +1,6 @@
 <div class="container">
   <h2>Formulario </h2>
-  <form action="validar.php" method="post">
+  <form action="/includes/validar.php" method="post">
     <label for="nif">NIF:
       <input class="form-control" type="text" name="nif">
     </label>
@@ -13,8 +13,8 @@
       <input class="form-control" type="text" name="surname">
     </label>
     <br />
-    <label for="date">Fecha de nacimiento:
-      <input class="form-control" type="date" name="date">
+    <label for="nacimiento">Fecha de nacimiento:
+      <input class="form-control" type="date" name="nacimiento">
     </label>
     <br />
     <label for="email">Email:
@@ -25,7 +25,7 @@
       <input class="form-control" type="password" name="password">
     </label>
     <br />
-    <input type="submit" value="Enviar" class="btn btn-success">
+    <input type="submit" name="submit" value="Enviar" class="btn btn-success">
 
 
   </form>
