@@ -5,11 +5,9 @@ $errores = [];
 function mostrarError($errores, $campo){
   $alerta = "";
   if (isset($errores[$campo]) && !empty($campo)) {
-    $alert = '<div class="alert alert-danger" style=" margin-top:5px;">'
+    $alerta = '<div class="alert alert-danger" style=" margin-top:5px;">'
       . $errores[$campo] . '</div>';
   }
-  return $alerta;
-
   return $alerta;
 }
 

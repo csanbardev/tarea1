@@ -5,7 +5,7 @@
   <title>Formulario</title>
 </head>
 <body>
-  <?php require 'validarCompleto.php'; ?>
-  <?php require 'body.php'; ?> 
+<?php require 'validarCompleto.php'; ?>
+<?php require 'body.php'; ?>
 </body>
 </html>
