@@ -5,6 +5,7 @@
   <title>Formulario</title>
 </head>
 <body>
+  <?php include 'includes/validarCompleto.php'; ?>
   <?php include 'includes/body.php'; ?> 
 </body>
 </html>
